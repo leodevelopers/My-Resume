@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head>
+<body>
+   <center> <h1>Contact Me Page</h1></center>
+   <center> <form action="mailto:khanmishal95@gmail.com" method="POST" enctype="text/plain">
+        <table cellspacing = "20" border="2">
+            <tr>
+                <td><lable>Your Name: </lable></td>
+                <td><input type="text" name="Name" required></td>
+            </tr>
+            <tr>
+                <td><lable>Your Favorite Color: </lable></td>
+                <td><input type="color" name="fav.color"></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth: </label></td>
+                <td><input type="date" name="d.o.b" required></td>
+            </tr>
+            <tr>
+                <td><label>Work Experience: </label></td>
+                <td><input type="range" name="work-experience" required></td>
+            </tr>
+            <tr>
+                <td><label>Mobile No. : </label></td>
+                <td><input type="tel" name="mob-number" required></td>
+            </tr>
+            <tr>
+                <td><label>Marital Status: </label></td>
+                <td><input type="radio" name="m.s. : single">Single<br>
+                    <input type="radio" name="m.s. : married">Married<br>
+                    <input type="radio" name="m.s. : engaged">Engaged</td>
+            </tr>
+            <tr>
+                <td><label>Where Did you hear about me?</label></td>
+                <td><input type="checkbox" name="social-media">Social Media<br>
+                     <input type="checkbox" name="reference">Referred by Someone<br>
+                     <input type="checkbox" name="none">None</td>
+            </tr>
+            <tr>
+                <td><label>Your Message: </label></td>
+                <td><textarea rows="9" columns="9" required></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </form></center>
+</body>
+</html>
